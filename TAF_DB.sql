@@ -37,3 +37,18 @@ password VARCHAR(20),
 FOREIGN KEY (shop_id) REFERENCES shops(id),
 premium BOOLEAN
 };
+
+Create TABLE artistSpecialties{
+id INT NOT NULL AUTO_INCREMENT,
+artist int,
+genre_id int,
+FOREIGN KEY (artist) REFERENCES artists(id),
+FOREIGN KEY (genre_id) REFERENCES genres(id)
+}
+
+Create TABLE genres
+{
+id INT NOT NULL AUTO_INCREMENT,
+genre VARCHAR(30),
+}
+
