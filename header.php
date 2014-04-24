@@ -46,10 +46,14 @@
     font-family: Impact, Charcoal, sans-serif;
     font-size: 24;
     text-decoration: none;
+    
   
     }
     a:visited{
     color:black;
+    }
+    a:hover{
+      color:red;
     }
 
     .logo {
@@ -65,6 +69,7 @@
     </style>
 </head>
 <body>    
+<?php include('dbconnect.php'); ?>
     <section>
 		<header>
  		 <nav>
