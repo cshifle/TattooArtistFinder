@@ -24,13 +24,7 @@
     display: inline-block;
     padding: 40px 30px 40px 0;
 
-/*    color: #FFFFFF;
-    text-decoration: none;
-    text-align: center;
-    background-color #000000;
-    border-left-width:thick;
-    border-left-style:solid;
-    border-left-color:99FF00*/
+
         }
 
     nav li:nth-child(3) {
