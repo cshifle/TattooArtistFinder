@@ -3,7 +3,7 @@
 <style>
 
 .container{
-margin-top: 20px;
+margin-top: 30px;
 margin-bottom: auto;
 width: 1200px;
 margin-left: auto;
@@ -39,6 +39,11 @@ margin-right: auto;
 }
 select{
  font-size: 14;
+}
+
+.button{
+ border: 1px solid;
+ width: 200px;
 }
 </style>
 </head>
