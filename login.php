@@ -23,8 +23,9 @@
 	<input type = "password" name = "password" /><br>
 
 	<input type = "submit" name = "Login" value = "Login" /><br>
+	
 
-
+</form>
 
 <a href="retrievePassword.php" style = "text-decoration:none">forgot password?</a> | <a href = "validate.php" style = "text-decoration:none">validate</a></center>
 </body>
